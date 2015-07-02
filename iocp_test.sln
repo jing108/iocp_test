@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iocp_server", "iocp_server\iocp_server.vcxproj", "{B8588C7D-974A-4665-821F-708E069A1C41}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iocp_clinet", "iocp_clinet\iocp_clinet.vcxproj", "{8305C3C5-C038-4089-BA2D-C78457AF1881}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -15,6 +17,10 @@ Global
 		{B8588C7D-974A-4665-821F-708E069A1C41}.Debug|x86.Build.0 = Debug|Win32
 		{B8588C7D-974A-4665-821F-708E069A1C41}.Release|x86.ActiveCfg = Release|Win32
 		{B8588C7D-974A-4665-821F-708E069A1C41}.Release|x86.Build.0 = Release|Win32
+		{8305C3C5-C038-4089-BA2D-C78457AF1881}.Debug|x86.ActiveCfg = Debug|Win32
+		{8305C3C5-C038-4089-BA2D-C78457AF1881}.Debug|x86.Build.0 = Debug|Win32
+		{8305C3C5-C038-4089-BA2D-C78457AF1881}.Release|x86.ActiveCfg = Release|Win32
+		{8305C3C5-C038-4089-BA2D-C78457AF1881}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

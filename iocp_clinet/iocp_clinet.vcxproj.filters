@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ipco_serv.cpp">
+    <ClCompile Include="iocp_client.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

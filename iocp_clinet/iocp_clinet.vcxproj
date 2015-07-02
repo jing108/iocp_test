@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B8588C7D-974A-4665-821F-708E069A1C41}</ProjectGuid>
+    <ProjectGuid>{8305C3C5-C038-4089-BA2D-C78457AF1881}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>iocp_server</RootNamespace>
+    <RootNamespace>iocp_clinet</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -80,7 +80,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ipco_serv.cpp" />
+    <ClCompile Include="iocp_client.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
